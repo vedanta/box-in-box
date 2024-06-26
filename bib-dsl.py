@@ -6,17 +6,22 @@ class BiBDSL:
     def __init__(self, yaml_file):
         self.data = self.load_yaml(yaml_file)
         self.boxes = {}
-        self.padding = 40
-        self.text_margin = 20
-        self.min_box_size = 100  # Increased minimum size for better readability
-        self.max_depth = 3  # Limit to 3 levels
+        self.padding = 20
+        self.text_margin = 10
+        self.min_box_size = 80
+        self.max_depth = 3
         self.image = Image.new('RGB', (2480, 3508), color='white')  # A4 size at 300 DPI
         self.draw = ImageDraw.Draw(self.image)
         try:
-            self.font = ImageFont.truetype("Arial.ttf", 48)  # Increased font size
+            self.fonts = {
+                0: ImageFont.truetype("Arial.ttf", 48),
+                1: ImageFont.truetype("Arial.ttf", 36),
+                2: ImageFont.truetype("Arial.ttf", 24)
+            }
         except IOError:
             print("Arial font not found, using default font")
-            self.font = ImageFont.load_default()
+            default_font = ImageFont.load_default()
+            self.fonts = {0: default_font, 1: default_font, 2: default_font}
 
     def load_yaml(self, yaml_file):
         try:
@@ -71,10 +76,17 @@ class BiBDSL:
         box['height'] = max(available_height - 2 * self.padding, self.min_box_size)
 
         if box['children']:
+            # Reserve space for the parent box label
+            font = self.fonts[min(box['level'], 2)]
+            _, _, _, label_height = self.draw.textbbox((0, 0), box['name'], font=font)
+            label_height += 2 * self.text_margin
+            remaining_height = box['height'] - label_height - self.padding
+
             num_children = len(box['children'])
-            child_height = max((box['height'] - self.padding * (num_children + 1)) / num_children, self.min_box_size)
+            child_height = max((remaining_height - self.padding * (num_children + 1)) / num_children, self.min_box_size)
+            
             for i, child in enumerate(box['children']):
-                child_y = box['y'] + self.padding + i * (child_height + self.padding)
+                child_y = box['y'] + label_height + self.padding + i * (child_height + self.padding)
                 child_height = min(child_height, box['height'] - (child_y - box['y']) - self.padding)
                 if child_height >= self.min_box_size:
                     self.calculate_positions(child, box['x'] + self.padding, child_y, box['width'] - 2 * self.padding, child_height)
@@ -88,15 +100,16 @@ class BiBDSL:
         self.draw.rectangle([box['x'], box['y'], box['x'] + box['width'], box['y'] + box['height']], 
                             outline='black', fill=box.get('color', 'white'))
         
-        left, top, right, bottom = self.draw.textbbox((0, 0), box['name'], font=self.font)
+        font = self.fonts[min(box['level'], 2)]  # Use the smallest font for levels 2 and beyond
+        left, top, right, bottom = self.draw.textbbox((0, 0), box['name'], font=font)
         text_width = right - left
         text_height = bottom - top
         
         text_x = box['x'] + (box['width'] - text_width) / 2
-        text_y = box['y'] + (box['height'] - text_height) / 2  # Center text vertically
-        
+        text_y = box['y'] + self.text_margin
+
         if text_width < box['width'] - 2 * self.text_margin and text_height < box['height'] - 2 * self.text_margin:
-            self.draw.text((text_x, text_y), box['name'], fill='black', font=self.font)
+            self.draw.text((text_x, text_y), box['name'], fill='black', font=font)
 
         for child in box['children']:
             self.draw_boxes(child)
