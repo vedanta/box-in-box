@@ -1,19 +1,39 @@
-root:
+Gaming Company:
   color: "#FFFFFF"
   children:
-    level1_1:
-      color: "#E0E0E0"
+    Game Development:
+      color: "#E0F0E0"
       children:
-        level2_1:
-          color: "#C0C0C0"
-        level2_2:
-          color: "#D0D0D0"
-    level1_2:
-      color: "#F0F0F0"
+        Game Design:
+          color: "#C0E0C0"
+        Art and Animation:
+          color: "#D0E0D0"
+        Programming:
+          color: "#B0D0B0"
+    Marketing and Sales:
+      color: "#F0E0E0"
       children:
-        level2_3:
-          color: "#E8E8E8"
-        level2_4:
-          color: "#F8F8F8"
-    level1_3:
-      color: "#E8E8E8"
+        Digital Marketing:
+          color: "#E0C0C0"
+        Community Management:
+          color: "#E0D0D0"
+        Sales and Distribution:
+          color: "#F0D0D0"
+    Operations:
+      color: "#E0E0F0"
+      children:
+        IT Infrastructure:
+          color: "#C0C0E0"
+        Customer Support:
+          color: "#D0D0E0"
+        Human Resources:
+          color: "#E0E0F0"
+    Finance and Legal:
+      color: "#F0F0E0"
+      children:
+        Financial Planning:
+          color: "#E0E0C0"
+        Accounting:
+          color: "#F0F0D0"
+        Legal and Compliance:
+          color: "#E0E0B0"
