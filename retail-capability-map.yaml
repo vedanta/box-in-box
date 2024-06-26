@@ -6,82 +6,465 @@ Retail Organization:
       children:
         Product Selection:
           color: "#C0E0C0"
+          children:
+            Trend Analysis:
+              color: "#A0C0A0"
+            Vendor Management:
+              color: "#B0D0B0"
+            Product Lifecycle Management:
+              color: "#C0E0C0"
         Pricing Strategy:
           color: "#D0E0D0"
+          children:
+            Competitive Analysis:
+              color: "#B0C0B0"
+            Dynamic Pricing:
+              color: "#C0D0C0"
+            Markdown Optimization:
+              color: "#D0E0D0"
+        Category Management:
+          color: "#E0F0E0"
+          children:
+            Space Planning:
+              color: "#C0E0C0"
+            Assortment Planning:
+              color: "#D0F0D0"
+            Performance Analysis:
+              color: "#E0F0E0"
+        Visual Merchandising:
+          color: "#F0F0E0"
+          children:
+            Store Layout Design:
+              color: "#D0D0C0"
+            Window Displays:
+              color: "#E0E0D0"
+            Product Placement:
+              color: "#F0F0E0"
+        Inventory Optimization:
+          color: "#E0E0C0"
+          children:
+            Demand Forecasting:
+              color: "#C0C0A0"
+            Stock Replenishment:
+              color: "#D0D0B0"
+            Inventory Turnover Analysis:
+              color: "#E0E0C0"
     Supply Chain Management:
       color: "#F0E0E0"
       children:
-        Inventory Management:
+        Procurement:
           color: "#E0C0C0"
-        Logistics:
+          children:
+            Supplier Relationship Management:
+              color: "#C0A0A0"
+            Contract Negotiation:
+              color: "#D0B0B0"
+            Quality Control:
+              color: "#E0C0C0"
+        Warehouse Management:
+          color: "#F0D0D0"
+          children:
+            Inventory Tracking:
+              color: "#D0B0B0"
+            Order Fulfillment:
+              color: "#E0C0C0"
+            Returns Processing:
+              color: "#F0D0D0"
+        Transportation:
+          color: "#F0E0E0"
+          children:
+            Route Optimization:
+              color: "#D0C0C0"
+            Carrier Management:
+              color: "#E0D0D0"
+            Last-Mile Delivery:
+              color: "#F0E0E0"
+        Demand Planning:
           color: "#E0D0D0"
+          children:
+            Sales Forecasting:
+              color: "#C0B0B0"
+            Inventory Allocation:
+              color: "#D0C0C0"
+            Seasonal Planning:
+              color: "#E0D0D0"
+        Reverse Logistics:
+          color: "#F0E0D0"
+          children:
+            Returns Management:
+              color: "#D0C0B0"
+            Refurbishment:
+              color: "#E0D0C0"
+            Recycling:
+              color: "#F0E0D0"
     Store Operations:
       color: "#E0E0F0"
       children:
         Staff Management:
           color: "#C0C0E0"
+          children:
+            Scheduling:
+              color: "#A0A0C0"
+            Performance Evaluation:
+              color: "#B0B0D0"
+            Training Programs:
+              color: "#C0C0E0"
         Customer Service:
           color: "#D0D0E0"
+          children:
+            Complaint Resolution:
+              color: "#B0B0C0"
+            Customer Feedback Management:
+              color: "#C0C0D0"
+            Loyalty Program Management:
+              color: "#D0D0E0"
+        Loss Prevention:
+          color: "#E0E0F0"
+          children:
+            Security Systems:
+              color: "#C0C0D0"
+            Inventory Shrinkage Control:
+              color: "#D0D0E0"
+            Employee Training:
+              color: "#E0E0F0"
+        POS Management:
+          color: "#F0F0F0"
+          children:
+            Transaction Processing:
+              color: "#D0D0D0"
+            Cash Management:
+              color: "#E0E0E0"
+            System Maintenance:
+              color: "#F0F0F0"
+        Store Maintenance:
+          color: "#E0E0E0"
+          children:
+            Cleaning Services:
+              color: "#C0C0C0"
+            Equipment Maintenance:
+              color: "#D0D0D0"
+            Facilities Management:
+              color: "#E0E0E0"
     E-commerce:
       color: "#F0F0E0"
       children:
-        Online Platform:
+        Online Platform Management:
           color: "#E0E0C0"
+          children:
+            Website Development:
+              color: "#C0C0A0"
+            Mobile App Management:
+              color: "#D0D0B0"
+            User Experience Optimization:
+              color: "#E0E0C0"
         Digital Marketing:
           color: "#F0F0D0"
+          children:
+            SEO/SEM:
+              color: "#D0D0B0"
+            Social Media Marketing:
+              color: "#E0E0C0"
+            Email Campaigns:
+              color: "#F0F0D0"
+        Order Fulfillment:
+          color: "#F0E0C0"
+          children:
+            Warehousing:
+              color: "#D0C0A0"
+            Shipping:
+              color: "#E0D0B0"
+            Returns Processing:
+              color: "#F0E0C0"
+        Customer Analytics:
+          color: "#E0F0C0"
+          children:
+            Behavior Tracking:
+              color: "#C0D0A0"
+            Personalization:
+              color: "#D0E0B0"
+            Conversion Optimization:
+              color: "#E0F0C0"
+        Payment Processing:
+          color: "#F0E0D0"
+          children:
+            Payment Gateway Integration:
+              color: "#D0C0B0"
+            Fraud Prevention:
+              color: "#E0D0C0"
+            Multi-currency Support:
+              color: "#F0E0D0"
     Customer Relationship Management:
       color: "#E0F0F0"
       children:
         Loyalty Programs:
           color: "#C0F0F0"
+          children:
+            Program Design:
+              color: "#A0D0D0"
+            Rewards Management:
+              color: "#B0E0E0"
+            Member Communication:
+              color: "#C0F0F0"
         Customer Analytics:
           color: "#D0F0F0"
+          children:
+            Segmentation:
+              color: "#B0D0D0"
+            Lifetime Value Analysis:
+              color: "#C0E0E0"
+            Churn Prediction:
+              color: "#D0F0F0"
+        Feedback Management:
+          color: "#E0F0F0"
+          children:
+            Survey Design:
+              color: "#C0D0D0"
+            Feedback Collection:
+              color: "#D0E0E0"
+            Insights Generation:
+              color: "#E0F0F0"
+        Omnichannel Experience:
+          color: "#F0F0F0"
+          children:
+            Channel Integration:
+              color: "#D0D0D0"
+            Cross-channel Consistency:
+              color: "#E0E0E0"
+            Customer Journey Mapping:
+              color: "#F0F0F0"
+        Customer Support:
+          color: "#E0E0F0"
+          children:
+            Help Desk Management:
+              color: "#C0C0D0"
+            Knowledge Base Maintenance:
+              color: "#D0D0E0"
+            Support Channel Optimization:
+              color: "#E0E0F0"
     Financial Management:
       color: "#F0E0F0"
       children:
         Budgeting:
           color: "#E0C0F0"
+          children:
+            Budget Planning:
+              color: "#C0A0D0"
+            Cost Control:
+              color: "#D0B0E0"
+            Financial Forecasting:
+              color: "#E0C0F0"
         Financial Reporting:
           color: "#F0D0F0"
+          children:
+            P&L Statements:
+              color: "#D0B0D0"
+            Balance Sheet Management:
+              color: "#E0C0E0"
+            Cash Flow Analysis:
+              color: "#F0D0F0"
+        Accounting:
+          color: "#F0E0F0"
+          children:
+            Accounts Payable:
+              color: "#D0C0D0"
+            Accounts Receivable:
+              color: "#E0D0E0"
+            General Ledger:
+              color: "#F0E0F0"
+        Risk Management:
+          color: "#E0F0F0"
+          children:
+            Financial Risk Assessment:
+              color: "#C0D0D0"
+            Insurance Management:
+              color: "#D0E0E0"
+            Compliance Monitoring:
+              color: "#E0F0F0"
+        Asset Management:
+          color: "#F0E0E0"
+          children:
+            Fixed Asset Tracking:
+              color: "#D0C0C0"
+            Depreciation Management:
+              color: "#E0D0D0"
+            Capital Investment Planning:
+              color: "#F0E0E0"
     Marketing and Advertising:
       color: "#F0F0C0"
       children:
         Brand Management:
           color: "#E0F0C0"
+          children:
+            Brand Strategy:
+              color: "#C0D0A0"
+            Brand Identity:
+              color: "#D0E0B0"
+            Brand Monitoring:
+              color: "#E0F0C0"
         Promotional Campaigns:
           color: "#F0E0C0"
+          children:
+            Campaign Planning:
+              color: "#D0C0A0"
+            Media Buying:
+              color: "#E0D0B0"
+            Performance Tracking:
+              color: "#F0E0C0"
+        Market Research:
+          color: "#F0F0D0"
+          children:
+            Consumer Insights:
+              color: "#D0D0B0"
+            Competitor Analysis:
+              color: "#E0E0C0"
+            Trend Forecasting:
+              color: "#F0F0D0"
+        Content Marketing:
+          color: "#E0E0B0"
+          children:
+            Content Strategy:
+              color: "#C0C090"
+            Content Creation:
+              color: "#D0D0A0"
+            Content Distribution:
+              color: "#E0E0B0"
+        Public Relations:
+          color: "#F0F0E0"
+          children:
+            Media Relations:
+              color: "#D0D0C0"
+            Crisis Management:
+              color: "#E0E0D0"
+            Corporate Communications:
+              color: "#F0F0E0"
     Human Resources:
       color: "#C0F0E0"
       children:
         Recruitment:
           color: "#B0E0D0"
+          children:
+            Job Posting:
+              color: "#90C0B0"
+            Candidate Screening:
+              color: "#A0D0C0"
+            Interview Process:
+              color: "#B0E0D0"
         Training and Development:
           color: "#D0F0E0"
+          children:
+            Onboarding:
+              color: "#B0D0C0"
+            Skill Development:
+              color: "#C0E0D0"
+            Leadership Training:
+              color: "#D0F0E0"
+        Performance Management:
+          color: "#C0E0D0"
+          children:
+            Goal Setting:
+              color: "#A0C0B0"
+            Performance Reviews:
+              color: "#B0D0C0"
+            Feedback Systems:
+              color: "#C0E0D0"
+        Compensation and Benefits:
+          color: "#E0F0E0"
+          children:
+            Salary Administration:
+              color: "#C0D0C0"
+            Benefits Management:
+              color: "#D0E0D0"
+            Incentive Programs:
+              color: "#E0F0E0"
+        Employee Relations:
+          color: "#D0E0D0"
+          children:
+            Conflict Resolution:
+              color: "#B0C0B0"
+            Employee Engagement:
+              color: "#C0D0C0"
+            Workplace Culture:
+              color: "#D0E0D0"
     Information Technology:
       color: "#E0C0F0"
       children:
         POS Systems:
           color: "#D0B0E0"
+          children:
+            Hardware Management:
+              color: "#B090C0"
+            Software Updates:
+              color: "#C0A0D0"
+            Integration with Other Systems:
+              color: "#D0B0E0"
         Cybersecurity:
           color: "#F0D0F0"
-    Real Estate Management:
-      color: "#C0E0F0"
-      children:
-        Store Location Planning:
-          color: "#B0D0E0"
-        Facility Management:
-          color: "#D0E0F0"
+          children:
+            Threat Detection:
+              color: "#D0B0D0"
+            Data Protection:
+              color: "#E0C0E0"
+            Security Training:
+              color: "#F0D0F0"
+        Network Infrastructure:
+          color: "#E0C0E0"
+          children:
+            Network Maintenance:
+              color: "#C0A0C0"
+            Bandwidth Management:
+              color: "#D0B0D0"
+            Cloud Integration:
+              color: "#E0C0E0"
+        Data Management:
+          color: "#F0E0F0"
+          children:
+            Data Warehousing:
+              color: "#D0C0D0"
+            Data Analytics:
+              color: "#E0D0E0"
+            Data Governance:
+              color: "#F0E0F0"
+        IT Support:
+          color: "#E0D0E0"
+          children:
+            Help Desk:
+              color: "#C0B0C0"
+            System Troubleshooting:
+              color: "#D0C0D0"
+            User Training:
+              color: "#E0D0E0"
     Legal and Compliance:
       color: "#F0C0E0"
       children:
         Regulatory Compliance:
           color: "#E0B0D0"
+          children:
+            Policy Development:
+              color: "#C090B0"
+            Compliance Monitoring:
+              color: "#D0A0C0"
+            Audit Management:
+              color: "#E0B0D0"
         Contract Management:
           color: "#F0D0E0"
-    Sustainability:
-      color: "#C0F0C0"
-      children:
-        Eco-friendly Practices:
-          color: "#B0E0B0"
-        Sustainable Sourcing:
-          color: "#D0F0D0"
+          children:
+            Contract Drafting:
+              color: "#D0B0C0"
+            Negotiation Support:
+              color: "#E0C0D0"
+            Contract Lifecycle Management:
+              color: "#F0D0E0"
+        Intellectual Property:
+          color: "#E0C0D0"
+          children:
+            Trademark Management:
+              color: "#C0A0B0"
+            Copyright Protection:
+              color: "#D0B0C0"
+            Patent Filing:
+              color: "#E0C0D0"
+        Risk Management:
+          color: "#F0E0E0"
+          children:
+            Risk Assessment:
+              color: "#D0C0C0"

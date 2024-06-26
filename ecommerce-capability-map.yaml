@@ -1,4 +1,4 @@
-E-commerce Company:
+E-commerce Organization:
   color: "#FFFFFF"
   children:
     Product Management:
@@ -6,34 +6,118 @@ E-commerce Company:
       children:
         Catalog Management:
           color: "#C0E0C0"
-        Pricing Strategy:
-          color: "#D0E0D0"
+          children:
+            Product Information Management:
+              color: "#A0C0A0"
+            Category Structuring:
+              color: "#B0D0B0"
         Inventory Control:
-          color: "#B0D0B0"
+          color: "#D0E0D0"
+          children:
+            Stock Level Monitoring:
+              color: "#B0C0B0"
+            Reorder Point Optimization:
+              color: "#C0D0C0"
+        Pricing and Promotions:
+          color: "#E0F0E0"
+          children:
+            Dynamic Pricing:
+              color: "#C0E0C0"
+            Promotional Campaign Management:
+              color: "#D0F0D0"
     Customer Experience:
       color: "#F0E0E0"
       children:
-        User Interface:
+        User Interface Design:
           color: "#E0C0C0"
-        Customer Support:
-          color: "#E0D0D0"
+          children:
+            Website Layout Optimization:
+              color: "#C0A0A0"
+            Mobile Responsiveness:
+              color: "#D0B0B0"
         Personalization:
           color: "#F0D0D0"
+          children:
+            Product Recommendations:
+              color: "#D0B0B0"
+            Personalized Content Delivery:
+              color: "#E0C0C0"
+        Customer Support:
+          color: "#F0E0E0"
+          children:
+            Chatbot Integration:
+              color: "#D0C0C0"
+            Ticket Management System:
+              color: "#E0D0D0"
     Order Fulfillment:
       color: "#E0E0F0"
       children:
-        Warehousing:
+        Order Processing:
           color: "#C0C0E0"
-        Shipping:
+          children:
+            Order Verification:
+              color: "#A0A0C0"
+            Payment Processing:
+              color: "#B0B0D0"
+        Shipping and Logistics:
           color: "#D0D0E0"
-        Returns Processing:
+          children:
+            Carrier Integration:
+              color: "#B0B0C0"
+            Shipment Tracking:
+              color: "#C0C0D0"
+        Returns Management:
           color: "#E0E0F0"
-    Marketing:
+          children:
+            Return Policy Administration:
+              color: "#C0C0D0"
+            Refund Processing:
+              color: "#D0D0E0"
+    Marketing and Sales:
       color: "#F0F0E0"
       children:
-        SEO:
+        SEO and SEM:
           color: "#E0E0C0"
-        Email Campaigns:
+          children:
+            Keyword Optimization:
+              color: "#C0C0A0"
+            Ad Campaign Management:
+              color: "#D0D0B0"
+        Social Media Marketing:
           color: "#F0F0D0"
-        Social Media:
-          color: "#E0E0B0"
+          children:
+            Content Creation:
+              color: "#D0D0B0"
+            Influencer Partnerships:
+              color: "#E0E0C0"
+        Analytics and Reporting:
+          color: "#F0E0C0"
+          children:
+            Sales Performance Tracking:
+              color: "#D0C0A0"
+            Customer Behavior Analysis:
+              color: "#E0D0B0"
+    Technology Infrastructure:
+      color: "#E0F0F0"
+      children:
+        E-commerce Platform:
+          color: "#C0F0F0"
+          children:
+            Platform Selection and Integration:
+              color: "#A0D0D0"
+            Performance Optimization:
+              color: "#B0E0E0"
+        Payment Gateway:
+          color: "#D0F0F0"
+          children:
+            Payment Method Integration:
+              color: "#B0D0D0"
+            Fraud Detection:
+              color: "#C0E0E0"
+        Data Security:
+          color: "#E0F0F0"
+          children:
+            Encryption Implementation:
+              color: "#C0D0D0"
+            Compliance Management:
+              color: "#D0E0E0"
