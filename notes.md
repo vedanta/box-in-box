@@ -1,0 +1,3 @@
+- trying out different libraries
+- os dependencies, portability 
+- yaml usage - linting

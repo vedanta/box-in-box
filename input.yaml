@@ -1,0 +1,7 @@
+root:
+  color: "#E0F0FF"
+  children:
+    child1:
+      color: "#B0D0FF"
+    child2:
+      color: "#FFD0D0"
