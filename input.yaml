@@ -1,7 +1,19 @@
 root:
-  color: "#E0F0FF"
+  color: "#FFFFFF"
   children:
-    child1:
-      color: "#B0D0FF"
-    child2:
-      color: "#FFD0D0"
+    level1_1:
+      color: "#E0E0E0"
+      children:
+        level2_1:
+          color: "#C0C0C0"
+        level2_2:
+          color: "#D0D0D0"
+    level1_2:
+      color: "#F0F0F0"
+      children:
+        level2_3:
+          color: "#E8E8E8"
+        level2_4:
+          color: "#F8F8F8"
+    level1_3:
+      color: "#E8E8E8"
