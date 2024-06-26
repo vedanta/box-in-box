@@ -1,0 +1,39 @@
+Company:
+  color: "#FFFFFF"
+  children:
+    Executive Team:
+      color: "#E0F0E0"
+      children:
+        CEO:
+          color: "#C0E0C0"
+        CFO:
+          color: "#D0E0D0"
+        CTO:
+          color: "#B0D0B0"
+    Sales and Marketing:
+      color: "#F0E0E0"
+      children:
+        Sales Director:
+          color: "#E0C0C0"
+        Marketing Manager:
+          color: "#E0D0D0"
+        Customer Relations:
+          color: "#F0D0D0"
+    Product Development:
+      color: "#E0E0F0"
+      children:
+        Product Manager:
+          color: "#C0C0E0"
+        UX Designer:
+          color: "#D0D0E0"
+        Lead Developer:
+          color: "#E0E0F0"
+    Operations:
+      color: "#F0F0E0"
+      children:
+        HR Manager:
+          color: "#E0E0C0"
+        Facilities Manager:
+          color: "#F0F0D0"
+        IT Support:
+          color: "#E0E0B0"

@@ -1,0 +1,87 @@
+Retail Organization:
+  color: "#FFFFFF"
+  children:
+    Merchandising:
+      color: "#E0F0E0"
+      children:
+        Product Selection:
+          color: "#C0E0C0"
+        Pricing Strategy:
+          color: "#D0E0D0"
+    Supply Chain Management:
+      color: "#F0E0E0"
+      children:
+        Inventory Management:
+          color: "#E0C0C0"
+        Logistics:
+          color: "#E0D0D0"
+    Store Operations:
+      color: "#E0E0F0"
+      children:
+        Staff Management:
+          color: "#C0C0E0"
+        Customer Service:
+          color: "#D0D0E0"
+    E-commerce:
+      color: "#F0F0E0"
+      children:
+        Online Platform:
+          color: "#E0E0C0"
+        Digital Marketing:
+          color: "#F0F0D0"
+    Customer Relationship Management:
+      color: "#E0F0F0"
+      children:
+        Loyalty Programs:
+          color: "#C0F0F0"
+        Customer Analytics:
+          color: "#D0F0F0"
+    Financial Management:
+      color: "#F0E0F0"
+      children:
+        Budgeting:
+          color: "#E0C0F0"
+        Financial Reporting:
+          color: "#F0D0F0"
+    Marketing and Advertising:
+      color: "#F0F0C0"
+      children:
+        Brand Management:
+          color: "#E0F0C0"
+        Promotional Campaigns:
+          color: "#F0E0C0"
+    Human Resources:
+      color: "#C0F0E0"
+      children:
+        Recruitment:
+          color: "#B0E0D0"
+        Training and Development:
+          color: "#D0F0E0"
+    Information Technology:
+      color: "#E0C0F0"
+      children:
+        POS Systems:
+          color: "#D0B0E0"
+        Cybersecurity:
+          color: "#F0D0F0"
+    Real Estate Management:
+      color: "#C0E0F0"
+      children:
+        Store Location Planning:
+          color: "#B0D0E0"
+        Facility Management:
+          color: "#D0E0F0"
+    Legal and Compliance:
+      color: "#F0C0E0"
+      children:
+        Regulatory Compliance:
+          color: "#E0B0D0"
+        Contract Management:
+          color: "#F0D0E0"
+    Sustainability:
+      color: "#C0F0C0"
+      children:
+        Eco-friendly Practices:
+          color: "#B0E0B0"
+        Sustainable Sourcing:
+          color: "#D0F0D0"

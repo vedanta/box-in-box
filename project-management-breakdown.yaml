@@ -1,0 +1,39 @@
+Project X:
+  color: "#FFFFFF"
+  children:
+    Planning Phase:
+      color: "#E0F0E0"
+      children:
+        Requirements Gathering:
+          color: "#C0E0C0"
+        Resource Allocation:
+          color: "#D0E0D0"
+        Timeline Development:
+          color: "#B0D0B0"
+    Execution Phase:
+      color: "#F0E0E0"
+      children:
+        Development:
+          color: "#E0C0C0"
+        Testing:
+          color: "#E0D0D0"
+        Documentation:
+          color: "#F0D0D0"
+    Monitoring and Control:
+      color: "#E0E0F0"
+      children:
+        Progress Tracking:
+          color: "#C0C0E0"
+        Quality Assurance:
+          color: "#D0D0E0"
+        Risk Management:
+          color: "#E0E0F0"
+    Closure:
+      color: "#F0F0E0"
+      children:
+        Final Delivery:
+          color: "#E0E0C0"
+        Client Feedback:
+          color: "#F0F0D0"
+        Lessons Learned:
+          color: "#E0E0B0"

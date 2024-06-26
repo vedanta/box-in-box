@@ -1,0 +1,39 @@
+Healthcare Organization:
+  color: "#FFFFFF"
+  children:
+    Patient Care:
+      color: "#E0F0E0"
+      children:
+        Primary Care:
+          color: "#C0E0C0"
+        Specialty Care:
+          color: "#D0E0D0"
+        Emergency Services:
+          color: "#B0D0B0"
+    Medical Research:
+      color: "#F0E0E0"
+      children:
+        Clinical Trials:
+          color: "#E0C0C0"
+        Data Analysis:
+          color: "#E0D0D0"
+        Publication:
+          color: "#F0D0D0"
+    Hospital Operations:
+      color: "#E0E0F0"
+      children:
+        Facility Management:
+          color: "#C0C0E0"
+        Supply Chain:
+          color: "#D0D0E0"
+        Human Resources:
+          color: "#E0E0F0"
+    Financial Management:
+      color: "#F0F0E0"
+      children:
+        Billing:
+          color: "#E0E0C0"
+        Insurance Claims:
+          color: "#F0F0D0"
+        Financial Planning:
+          color: "#E0E0B0"

@@ -1,0 +1,39 @@
+E-commerce Company:
+  color: "#FFFFFF"
+  children:
+    Product Management:
+      color: "#E0F0E0"
+      children:
+        Catalog Management:
+          color: "#C0E0C0"
+        Pricing Strategy:
+          color: "#D0E0D0"
+        Inventory Control:
+          color: "#B0D0B0"
+    Customer Experience:
+      color: "#F0E0E0"
+      children:
+        User Interface:
+          color: "#E0C0C0"
+        Customer Support:
+          color: "#E0D0D0"
+        Personalization:
+          color: "#F0D0D0"
+    Order Fulfillment:
+      color: "#E0E0F0"
+      children:
+        Warehousing:
+          color: "#C0C0E0"
+        Shipping:
+          color: "#D0D0E0"
+        Returns Processing:
+          color: "#E0E0F0"
+    Marketing:
+      color: "#F0F0E0"
+      children:
+        SEO:
+          color: "#E0E0C0"
+        Email Campaigns:
+          color: "#F0F0D0"
+        Social Media:
+          color: "#E0E0B0"

@@ -1,0 +1,75 @@
+Gaming Company:
+  color: "#FFFFFF"
+  children:
+    Game Development:
+      color: "#E0F0E0"
+      children:
+        Game Design:
+          color: "#C0E0C0"
+        Programming:
+          color: "#D0E0D0"
+        Art and Animation:
+          color: "#E0F0D0"
+    Publishing:
+      color: "#F0E0E0"
+      children:
+        Marketing:
+          color: "#E0C0C0"
+        Distribution:
+          color: "#F0D0D0"
+    Player Engagement:
+      color: "#E0E0F0"
+      children:
+        Community Management:
+          color: "#C0C0E0"
+        Player Support:
+          color: "#D0D0E0"
+    Monetization:
+      color: "#F0F0E0"
+      children:
+        In-game Purchases:
+          color: "#E0E0C0"
+        Subscription Models:
+          color: "#F0F0D0"
+    Technology Infrastructure:
+      color: "#E0F0F0"
+      children:
+        Server Management:
+          color: "#C0F0F0"
+        Network Security:
+          color: "#D0F0F0"
+    Data Analytics:
+      color: "#F0E0F0"
+      children:
+        Player Behavior Analysis:
+          color: "#E0C0F0"
+        Game Performance Metrics:
+          color: "#F0D0F0"
+    Esports:
+      color: "#F0F0C0"
+      children:
+        Tournament Organization:
+          color: "#E0F0C0"
+        Team Management:
+          color: "#F0E0C0"
+    Intellectual Property Management:
+      color: "#C0F0E0"
+      children:
+        Copyright Protection:
+          color: "#B0E0D0"
+        Licensing:
+          color: "#D0F0E0"
+    Quality Assurance:
+      color: "#E0C0F0"
+      children:
+        Bug Testing:
+          color: "#D0B0E0"
+        User Experience Testing:
+          color: "#F0D0F0"
+    Research and Innovation:
+      color: "#C0E0F0"
+      children:
+        New Technology Exploration:
+          color: "#B0D0E0"
+        Game Mechanics Innovation:
+          color: "#D0E0F0"
